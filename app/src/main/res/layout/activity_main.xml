@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#EEEEEE"
+    android:background="#FFFFFF"
     tools:context=".MainActivity">
 
     <TextView
@@ -48,10 +48,31 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4" />
 
     <ListView
-        android:layout_width="409dp"
-        android:layout_height="457dp"
+        android:id="@+id/select_device_list"
+        android:layout_width="292dp"
+        android:layout_height="370dp"
+        android:layout_marginTop="-230dp"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        tools:layout_editor_absoluteX="1dp" />
+        app:layout_constraintVertical_bias="0.75" />
+
+    <Button
+        android:id="@+id/select_device_refresh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#194ADA"
+        android:foregroundTint="#0B0707"
+        android:text="@string/refresh"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.52"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/select_device_list" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
