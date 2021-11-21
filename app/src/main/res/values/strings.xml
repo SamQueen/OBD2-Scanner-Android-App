@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OBD</string>
+    <string name="title" text="OBD2 Scanner">OBD</string>
+    <string name="obd2_scanner">OBD2 Scanner</string>
+</resources>
