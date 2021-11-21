@@ -2,4 +2,6 @@
     <string name="app_name">OBD</string>
     <string name="title" text="OBD2 Scanner">OBD</string>
     <string name="obd2_scanner">OBD2 Scanner</string>
+    <string name="please_connect_to_a_bluetooth_obd2_device">Please connect to a bluetooth OBD2 device.</string>
+    <string name="todo">TODO</string>
 </resources>
