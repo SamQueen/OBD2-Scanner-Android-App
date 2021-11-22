@@ -52,13 +52,17 @@
         android:layout_width="292dp"
         android:layout_height="370dp"
         android:layout_marginTop="-230dp"
-        android:background="#000000"
+        android:background="#FFFFFF"
+        android:textAlignment="textStart"
+        android:divider="@android:color/black"
+        android:dividerHeight="1dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.75" />
+        app:layout_constraintVertical_bias="0.75"
+        tools:listheader="Available Devices" />
 
     <Button
         android:id="@+id/select_device_refresh"
@@ -75,5 +79,7 @@
         app:layout_constraintHorizontal_bias="0.52"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/select_device_list" />
+
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

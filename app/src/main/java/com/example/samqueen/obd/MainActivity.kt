@@ -4,6 +4,7 @@ import android.app.Activity
 import android.bluetooth.BluetoothAdapter
 import android.bluetooth.BluetoothDevice
 import android.content.Intent
+import android.graphics.Color
 import android.os.Bundle
 import android.util.Log
 import android.widget.AdapterView
@@ -57,7 +58,8 @@ class MainActivity : AppCompatActivity() {
             toast("no paired bluetooth devices found")
         }
 
-        val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, nameList)
+        //val adapter = ArrayAdapter(this, android.R.layout.simple_list_item_1, nameList)
+        val adapter = ArrayAdapter(this, R.layout.list_black_text, R.id.list_content, nameList)
         select_device_list.adapter = adapter
         select_device_list.onItemClickListener =
             AdapterView.OnItemClickListener { _, _, position, _ ->
